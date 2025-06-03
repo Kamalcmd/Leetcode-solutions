@@ -39,7 +39,7 @@ public class Add_two_number_0002 {
         }
 
 
-    // ✅ Helper method to create a linked list from an array
+    //Helper method to create a linked list from an array
     public static ListNode createList(int[] values) {
         ListNode dummy = new ListNode(0);
         ListNode current = dummy;
