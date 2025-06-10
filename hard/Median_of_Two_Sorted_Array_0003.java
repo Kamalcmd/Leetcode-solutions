@@ -3,6 +3,8 @@ package hard;
 public class Median_of_Two_Sorted_Array_0003 {
     public double findMedianSortedArrays(int [] num1, int [] num2){
         if (num1.length > num2.length){
+            System.out.println(num1.length);
+            System.out.println(num2.length);
             return findMedianSortedArrays(num2, num1);
         }
 
